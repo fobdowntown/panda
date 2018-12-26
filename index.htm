@@ -223,55 +223,8 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72
 					</div>
 					<div class="l-subsection"><div class="1-subsection-h g-html i-cf">
 <h3><span class="highlight"><strong>Service Area</strong></span></h3>
- <div id="map" style="width: 100%; height: 450px;">
-  
-    <script>
 
-      // This example creates a simple polygon representing the Bermuda Triangle.
-var map;
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 13,
-          scrollwheel: false,
-          center: {lat: 43.652, lng: -79.396},
-          mapTypeId: 'terrain'
-        });
-
-        // Define the LatLng coordinates for the polygon's path.
-        var triangleCoords = [
-          {lat:  43.637, lng: -79.454},
-          {lat: 43.630, lng: -79.417},
-          {lat: 43.634, lng: -79.393},
-          {lat: 43.651, lng: -79.350},
-          {lat: 43.679, lng: -79.364},
-          {lat: 43.674, lng: -79.385},
-          {lat: 43.672, lng: -79.396},
-          {lat: 43.659, lng: -79.462},
-          {lat: 43.637, lng: -79.454}
-        ];
-
-        // Construct the polygon.
-        var bermudaTriangle = new google.maps.Polygon({
-          paths: triangleCoords,
-          strokeColor: '#f78f8f',
-          strokeOpacity: 0.8,
-          strokeWeight: 2,
-          fillColor: '#f78f8f',
-          fillOpacity: 0.35
-        });
-        bermudaTriangle.setMap(map);
- 
-            // marker
-        var fobdowntown = {lat: 43.638055, lng: -79.414816};
-        var marker = new google.maps.Marker({
-          position: fobdowntown,
-          map: map,
-          title: 'FobDowntown Office - 65 East Liberty St'
-        });
-
-      }
-      
-    </script>
+  <iframe width="100%" height="450" id="gmap_canvas" src="https://maps.google.com/maps?q=fobdowntown&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
 
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC03yJynUMG7Wlp8XrWOGsQGg2bauQ3pWw&callback=initMap">
