@@ -264,14 +264,53 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72
 FOOTER -->
 
 
-<div>
-<iframe width="65%" height="300" src="https://maps.google.com/maps?q=fobdowntown&t=&z=16&ie=UTF8&iwloc=&output=embed" border="0" frameborder="0" allowTransparency="false">
+<div id="map" style="width: 40%; height: 400px; float:right;">
+</div>
+<iframe width="60%" height="400" src="https://maps.google.com/maps?q=fobdowntown&t=&z=17&ie=UTF8&iwloc=&output=embed" border="0" frameborder="0" allowTransparency="false">
 </iframe>
 
-<a ref="magnificPopup" href="wp-content\uploads\service_area.jpg">
-<img src="wp-content\uploads\service_area.jpg" width="31%" height="450" border="0" frameborder="0" allowTransparency="false"></a>
-</div>
+    <script>
 
+
+      // This example creates a simple polygon representing the Bermuda Triangle.
+
+      function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 13,
+          scrollwheel: false,
+          center: {lat: 43.652, lng: -79.396},
+          mapTypeId: 'terrain'
+        });
+
+        // Define the LatLng coordinates for the polygon's path.
+        var triangleCoords = [
+          {lat:  43.637, lng: -79.454},
+          {lat: 43.630, lng: -79.417},
+          {lat: 43.634, lng: -79.393},
+          {lat: 43.651, lng: -79.350},
+          {lat: 43.679, lng: -79.364},
+          {lat: 43.674, lng: -79.385},
+          {lat: 43.672, lng: -79.396},
+          {lat: 43.659, lng: -79.462},
+          {lat: 43.637, lng: -79.454}
+        ];
+
+        // Construct the polygon.
+        var bermudaTriangle = new google.maps.Polygon({
+          paths: triangleCoords,
+          strokeColor: '#f78f8f',
+          strokeOpacity: 0.8,
+          strokeWeight: 2,
+          fillColor: '#f78f8f',
+          fillOpacity: 0.35
+        });
+        bermudaTriangle.setMap(map);
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC03yJynUMG7Wlp8XrWOGsQGg2bauQ3pWw&callback=initMap">
+    </script>
+						
 
 						
 												<p>
