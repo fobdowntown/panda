@@ -3664,3 +3664,24 @@ img.iclflag {
 	padding: 0 !important;
 	}
 }
+
+/* ====================================
+====== Map scrolling ===================
+==================================== */
+
+.map {
+    width:50%;
+    height:400px;  
+}
+ 
+ 
+.map-wrap {
+    position:relative;
+}
+     
+.overlay {
+    width:50%;
+    min-height:400px;
+    position:absolute;
+    top:0;
+}
