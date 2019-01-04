@@ -249,50 +249,7 @@ img.emoji {
 <h3><span class="highlight"><strong>Delivery Onsite & Walk-In Services</strong></span></h3>
  
  
-    <div id="map" style="width: 100%; height: 450px;">
-  
-    <script>
-
-
-      // This example creates a simple polygon representing the Bermuda Triangle.
-
-      function initMap() {
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 13,
-          scrollwheel: false,
-          center: {lat: 43.652, lng: -79.396},
-          mapTypeId: 'terrain'
-        });
-
-        // Define the LatLng coordinates for the polygon's path.
-        var triangleCoords = [
-          {lat:  43.637, lng: -79.454},
-          {lat: 43.630, lng: -79.417},
-          {lat: 43.634, lng: -79.393},
-          {lat: 43.651, lng: -79.350},
-          {lat: 43.679, lng: -79.364},
-          {lat: 43.674, lng: -79.385},
-          {lat: 43.672, lng: -79.396},
-          {lat: 43.659, lng: -79.462},
-          {lat: 43.637, lng: -79.454}
-        ];
-
-        // Construct the polygon.
-        var bermudaTriangle = new google.maps.Polygon({
-          paths: triangleCoords,
-          strokeColor: '#f78f8f',
-          strokeOpacity: 0.8,
-          strokeWeight: 2,
-          fillColor: '#f78f8f',
-          fillOpacity: 0.35
-        });
-        bermudaTriangle.setMap(map);
-      }
-    </script>
-    <script
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC03yJynUMG7Wlp8XrWOGsQGg2bauQ3pWw&callback=initMap">
-    </script>
-  </div>
+    <iframe class="map"  src="https://maps.google.com/maps?q=fobdowntown&t=&z=14&ie=UTF8&iwloc=&output=embed" width="100%" height="400"  frameborder="0" style="border:0"></iframe>
 
 
 												<p>
