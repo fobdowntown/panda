@@ -1,67 +1,335 @@
-AddDefaultCharset UTF-8
 
-Options -Indexes
 
-<IfModule mod_deflate.c>
-    AddOutputFilterByType DEFLATE application/javascript
-    AddOutputFilterByType DEFLATE application/json
-    AddOutputFilterByType DEFLATE application/x-javascript
-    AddOutputFilterByType DEFLATE application/vnd.ms-fontobject
-    AddOutputFilterByType DEFLATE font/ttf
-    AddOutputFilterByType DEFLATE font/otf
-    AddOutputFilterByType DEFLATE image/svg+xml
-    AddOutputFilterByType DEFLATE text/css
-    AddOutputFilterByType DEFLATE text/javascript
-    AddOutputFilterByType DEFLATE text/plain
-    AddOutputFilterByType DEFLATE text/html
-    AddOutputFilterByType DEFLATE text/xml
-</IfModule>
 
-<IfModule mod_mime.c>
-    AddType font/opentype .otf
-    AddType application/font-woff .woff
-    AddType application/font-woff2 .woff2
-    AddType application/x-font-ttf .ttf
-    AddType application/vnd.ms-fontobject .eot
-    AddType image/svg+xml .svg
-</IfModule>
 
-<IfModule mod_expires.c>
-    ExpiresActive On
-    ExpiresDefault "access plus 1 seconds"
-    ExpiresByType application/javascript "access plus 6 months"
-    ExpiresByType application/vnd.ms-fontobject "access plus 6 months"
-    ExpiresByType application/xhtml+xml "access plus 10 minutes"
-    ExpiresByType application/x-javascript "access plus 6 months"
-    ExpiresByType application/x-shockwave-flash "access plus 6 months"
-    ExpiresByType application/x-woff "access plus 6 months"
-    ExpiresByType font/otf "access plus 6 months"
-    ExpiresByType font/ttf "access plus 6 months"
-    ExpiresByType image/gif "access plus 6 months"
-    ExpiresByType image/jpeg "access plus 6 months"
-    ExpiresByType image/png "access plus 6 months"
-    ExpiresByType image/svg+xml "access plus 6 months"
-    ExpiresByType image/x-icon "access plus 6 months"
-    ExpiresByType text/css "access plus 6 months"
-    ExpiresByType text/html "access plus 10 minutes"
-    ExpiresByType text/javascript "access plus 6 months"
-    ExpiresByType video/x-flv "access plus 6 months"
-</IfModule>
 
-<IfModule mod_headers.c>
-    <FilesMatch "\\.(ico|jpe?g|png|gif|swf)$">
-        Header set Cache-Control "max-age=14515200, public"
-    </FilesMatch>
-    <FilesMatch "\\.(css)$">
-        Header set Cache-Control "max-age=14515200, public"
-    </FilesMatch>
-    <FilesMatch "\\.(js)$">
-        Header set Cache-Control "max-age=14515200, public"
-    </FilesMatch>
-    <FilesMatch "\.(ttf|otf|eot|woff|woff2|svg)$">
-        Header set Cache-Control "max-age=14515200, public"
-    </FilesMatch>
+<!DOCTYPE HTML>
+<html class="" lang="en" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#" xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<!-- HEADER -->
+	<title>Downtown Toronto Key Fob Copying Service | Fob Key Duplication.</title>
+	
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>	
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">	
+<meta name="description" content="Downtown Toronto Key Fob Copy and duplication Service from $40 per copy. Cards used in apartments, condos and HOAs. Common formats are: HID, HID iCLASS, HID Prox, EM, IoProx, G-Prox-II, ProxKey II, 1346 PROXKEY III, CIS, KTAG, Keri, Awid, Schlage, Pyramid, Indala, GeoProx, ICT (SecuraKey), Keyscan, Datawatch Systems, Paradox, RadioKey, Condoplex, SecuraKey, XCEEDID, INDALA KEY CARD, VEREX G-PROX CARD, AMANO, MIWALOCK, DKS, CDVI etc. Best Price, Service guarantee. Onsite Same Day Service Appointment">
+<meta name="keywords" content="fob copying, fob cloning, fob duplication, fob cloner, service, fob, copying, cloning, clone, copy, copier, duplicate, duplication, toronto, downtown, save, money, time, extra, key, convenient, apartment, condo, my, GTA area, rfid, proximity, tag, key card" />
+<meta name="twitter:card" content="summary">
+<meta name="twitter:description" content="Downtown Toronto Key Fob Copy and duplication Service from $40 per copy. Cards used in apartments, condos and HOAs. Common formats are: HID, HID iCLASS, HID Prox, EM, IoProx, G-Prox-II, ProxKey II, 1346 PROXKEY III, CIS, KTAG, Keri, Awid, Schlage, Pyramid, Indala, GeoProx, ICT (SecuraKey), Keyscan, Datawatch Systems, Paradox, RadioKey, Condoplex, SecuraKey, XCEEDID, INDALA KEY CARD, VEREX G-PROX CARD, AMANO, MIWALOCK, DKS, CDVI etc. Best Price, Service guarantee. Onsite Same Day Service Appointment">
+<meta name="twitter:title" content="Downtown Toronto Key Fob Copy Service.">
+<meta name="twitter:domain" content="panda.fobdowntown.com - Downtown Toronto Key Fob Copying Service">
+	
+<meta property="og:title" content="FobDowntown - Downtown Toronto Key Fob Copying Service.">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="website">
+<meta property="og:description" content="Downtown Toronto Key Fob Copy and duplication Service from $40 per copy. Cards used in apartments, condos and HOAs. Common formats are: HID, EM, IoProx, Keri, Awid, Schlage,  Pyramid, Indala, GeoProx, ICT, Keyscan, Securakey, Datawatch Systems, Paradox, RadioKey, SecuraKey etc. Best Price, Service guarantee. Onsite Same Day Service Appointment">
+<meta property="og:url" content="https://www.panda.fobdowntown.com/">
+<meta property="og:site_name" content="FobDowntown">
 
-    #Header unset ETag
-    #Header unset Last-Modified
-</IfModule>
+
+<link rel="canonical" href="https://panda.fobdowntown.com/">
+<link rel="canonical" href="https://panda.fobdowntown.com/">
+
+<link rel='stylesheet' id='us-font-1-css' href='https://fonts.googleapis.com/css?family=Dosis%3A400%2C700&#038;subset=latin&#038;' type='text/css' media='all'>
+<link rel='stylesheet' id='us-font-2-css' href='https://fonts.googleapis.com/css?family=PT+Sans%3A400%2C400italic%2C700%2C700italic&#038;subset=latin&#038;ver=4.3.1' type='text/css' media='all'>
+<link rel='stylesheet' id='us-motioncss-css' href='wp-content\themes\Corsa\css\motioncss.css' type='text/css' media='all'>
+<link rel='stylesheet' id='us-motioncss-responsive-css' href='wp-content\themes\Corsa\css\motioncss-responsive.css' type='text/css' media='all'>
+<link rel='stylesheet' id='us-font-awesome-css' href='wp-content\themes\Corsa\css\font-awesome.css' type='text/css' media='all'>
+<link rel='stylesheet' id='us-magnific-popup-css' href='wp-content\themes\Corsa\css\magnific-popup.css' type='text/css' media='all'>
+<link rel='stylesheet' id='us-style-css' href='wp-content\themes\Corsa\css\style.css' type='text/css' media='all'>
+<link rel='stylesheet' id='us-responsive-css' href='wp-content\themes\Corsa\css\responsive.css' type='text/css' media='all'>
+<link rel='stylesheet' id='us_custom_css-css' href='wp-content\themes\Corsa\css\us_corsa_custom_styles.css' type='text/css' media='all'>
+
+
+
+<link rel='shortlink' href='index.htm'>	
+<link rel="shortcut icon" href="wp-content/uploads/favicon.ico?v=2" />
+<link rel="stylesheet" href="wp-content\themes\Corsa\css\google-places.css">
+
+	
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+ #map {
+        height: 250px;
+        width: 100%;
+       }
+
+</style>
+
+
+<!-- /HEADER -->
+</head>
+
+<body class="home page page-id-5 page-template page-template-page-home page-template-page-home-php l-body headertype_sticky headerpos_top">
+<div class='l-preloader with_spinner'>
+<div class='l-preloader-spinner'>
+<div class='w-preloader  type_7'>
+<div class='w-preloader-h'></div></div></div></div>
+
+
+<div class="l-header full_width">
+	<div class="l-header-h i-cf">
+
+				<!-- logo -->
+		<div class="w-logo with_title">
+			<a class="w-logo-link" href="#">
+				<span class="w-logo-title">panda.fobdowntown.com</span>
+			</a>
+		</div>
+				
+
+		<!-- NAV -->
+		<nav class="w-nav layout_hor touch_disabled">
+			<div class="w-nav-control">
+				<i class="fa fa-bars"></i>
+			</div>
+			<ul class="w-nav-list level_1">
+				<li id="menu-item-10472" class="menu-item menu-item-type-post_type menu-item-object-us_main_page_section w-nav-item level_1 menu-item-10472"><a class="w-nav-anchor level_1" href="#home"><span class="w-nav-title">Home</span><span class="w-nav-arrow"></span></a></li>
+<li id="menu-item-10515" class="menu-item menu-item-type-post_type menu-item-object-us_main_page_section w-nav-item level_1 menu-item-10515"><a class="w-nav-anchor level_1" href="#how-it-works"><span class="w-nav-title">Process</span><span class="w-nav-arrow"></span></a></li>
+<li id="menu-item-10469" class="menu-item menu-item-type-post_type menu-item-object-us_main_page_section w-nav-item level_1 menu-item-10469"><a class="w-nav-anchor level_1" href="#why_us"><span class="w-nav-title">Why?</span><span class="w-nav-arrow"></span></a></li>
+<li id="menu-item-10469" class="menu-item menu-item-type-post_type menu-item-object-us_main_page_section w-nav-item level_1 menu-item-10469"><a class="w-nav-anchor level_1" href="#where_to_find"><span class="w-nav-title">Where?</span><span class="w-nav-arrow"></span></a></li>
+
+<!-- <li id="menu-item-10469" class="menu-item menu-item-type-post_type menu-item-object-us_main_page_section w-nav-item level_1 menu-item-10469"><a class="w-nav-anchor level_1" href="#experience"><span class="w-nav-title">YOUR EXPERIENCE!</span><span class="w-nav-arrow"></span></a></li> -->
+			</ul>
+		</nav>
+		<!-- /NAV -->
+
+	</div>
+</div>
+
+
+<!-- MAIN -->
+<div class="l-main align_center">
+<section id="home" class="l-section">
+	<div class="l-subsection with_parallax" style="background-image: url(wp-content/uploads/toronto.jpg)"><div class="l-subsection-h g-html i-cf">
+<h1 class="home-heading">
+<span class="home-heading-line type_white"><strong>Toronto </strong></span>
+<br><span class="home-heading-line type_white"><span>Fob Key Copy Service</span>
+</h1>
+
+<a href="https://fobdowntown.typeform.com/to/ubLat5" data-mode="1" target="_blank" class="g-btn color_primary size_big"><span>Book an Appointment</span></a>
+</div></div></section>
+
+<section id="how-it-works" class="l-section">
+	<div class="l-subsection color_alternate"><div class="l-subsection-h g-html i-cf">
+<h3><span class="highlight"><strong>Process</strong></span></h3>
+<div class="g-hr type_invisible">
+						<span class="g-hr-h">
+							<i class="fa fa-star"></i>
+						</span>
+					</div>
+<div class="g-cols offset_default">
+<div class="one-third"><div class="w-iconbox iconpos_top with_circle">
+						<div class="w-iconbox-link">
+							<div class="w-iconbox-icon">
+								<i class="fa fa-key"></i> </div>
+							<h4 class="w-iconbox-title">Identify your Key Fob</h4>
+						</div>
+						<div class="w-iconbox-text">
+							<p><a ref="magnificPopup" href="wp-content\uploads\fobs.jpg">Identify your Key Fob</a> to see if it is supported fob for copy or duplication.  If you dont see it, please <a href="mailto:support@fobdowntown.com?subject=FobDowntown.com-Fob-Picture"> email </a> or <a href="sms:6477737133">	text</a> us a photo as we support additional electronic keys & cards which are not listed. </p>
+							<p><strong> We don't copy any kinds of remote keys (i.e car keys). We duplicate and copy the proximity chip only of your fob.</strong> </p>
+						</div>
+					</div></div>
+<div class="one-third"><div class="w-iconbox iconpos_top with_circle">
+						<div class="w-iconbox-link">
+							<div class="w-iconbox-icon">
+								<i class="fa fa-comments-o"></i>		</div>
+							<h4 class="w-iconbox-title">Book an Appointment</h4>
+						</div>
+						<div class="w-iconbox-text">
+							<p><a href="https://fobdowntown.typeform.com/to/ubLat5" data-mode="1" target="_blank"> Book an appointment </a> and we will respond within the same business day to arrange technician.</p>
+<p><strong>PRICING: $40 per copy + $30 per additional fob copy</strong> </p>
+						</div>
+					</div></div>
+<div class="one-third"><div class="w-iconbox iconpos_top with_circle">
+						<div class="w-iconbox-link">
+							<div class="w-iconbox-icon">
+								<i class="fa fa-map-marker"></i>		</div>
+							<h4 class="w-iconbox-title">Technician Arrives Onsite</h4>
+						</div>
+						<div class="w-iconbox-text">
+<p>Technician will <a href="#where_to_find"> arrive onsite</a> at the appointment and a new fob copy for your Condo or Apartment will be made for you right away <strong>(takes less than 10 minutes)</strong>.  Your new duplicate will be tested to make sure it works. </p>
+						</div>
+					</div></div>
+</div>
+
+<div class="g-hr type_invisible">
+						<span class="g-hr-h">
+							<i class="fa fa-star"></i>
+						</span>
+					</div>
+
+<a href="mailto:support@fobdowntown.com?subject=FobDowntown.com-Request" data-mode="1" class="g-btn color_primary size_big" target="_blank"><span>support@fobdowntown.com</span></a>
+
+</div>
+</div>
+<p>&nbsp;</p>
+
+<p><a ref="magnificPopup" href="wp-content\uploads\fobs.jpg"><img class="wp-image-10703 alignnone" src="wp-content\uploads\fobs.jpg" alt="compatible2" width="1000" height="355"></a></p>
+<p><small>HID - HID iCLASS - HID Prox I/II/III - HID MicroProx - IoProx - Verex G-Prox-I/II - 1346 ProxKey I/II/III - ProxCard II - CIS - KTAG - Keri - Pyramid - Awid - Mircom - Schlage - Indala - IDTECK - DKprox - GeoProx - Kantech - Viking - ICT GT/POS - KeyScan - DataWatch - Paradox - RadioKey - CondoPlex - Cansec - SecuraKey - XceedID - Amano - LiftMaster - Linear - FlexPass - Honeywell - Rosslare - RbhAccess - Miwalock - DKS - FDI - EMX4 - Motorola - EyeOnGate - CDVI - EM - LNR - LVS - Mifare Classic - Other types of generic or unbranded tap/swipe RFID Key Access Cards and Fobs. | HID cards & fobs used for condos/apartment building entry - common elements area pool - gym - bbq areas - front door - car park - garages - lift access etc.</small></p>
+
+<section id="why_us" class="l-section">
+<div class="l-subsection  color_alternate"><div class="l-subsection-h g-html i-cf">
+<h3><span class="highlight"><strong>Why Choose Us?</strong></span></h3>
+<div class="g-hr type_invisible">
+						<span class="g-hr-h">
+							<i class="fa fa-star"></i>
+						</span>
+					</div>
+<div class="g-cols offset_default">
+<div class="one-third"> <div class="w-iconbox iconpos_top with_circle">
+						<div class="w-iconbox-link">
+							<div class="w-iconbox-icon">
+								<i class="fa fa-thumbs-up"></i>		</div>
+							<h4 class="w-iconbox-title">Fast and Secure</h4>
+						</div>
+						<div class="w-iconbox-text">
+							<p> Same day convenient service to make sure you get a new RFID key fob right away.  Your privacy is protected as your key info is never stored.</p>
+						</div>
+					</div> </div>
+<div class="one-third"> <div class="w-iconbox iconpos_top with_circle">
+						<div class="w-iconbox-link">
+							<div class="w-iconbox-icon">
+								<i class="fa fa-check"></i>		</div>
+							<h4 class="w-iconbox-title">Most Experienced</h4>
+						</div>
+						<div class="w-iconbox-text">
+							<p>Leading & Reliable Fob Copy Service in Toronto. Years of experience and many satisfied clients to date. Feel free to check below latest <a href="https://www.google.com/search?q=FobDowntown&ludocid=17615183932823943363#lrd=0x882b3503578afaf9:0xf475b4752923b8c3,1" data-mode="1" target="_blank"> reviews from Google</a>.</p>
+						</div>
+					</div> </div>
+<div class="one-third"> <div class="w-iconbox iconpos_top with_circle">
+						<div class="w-iconbox-link">
+							<div class="w-iconbox-icon">
+								<i class="fa fa-money"></i>		</div>
+							<h4 class="w-iconbox-title">Money Back Guarantee</h4>
+						</div>
+						<div class="w-iconbox-text">
+							<p> Our key copies are backed by 100% satisfaction and money back guarantee. </p>
+						</div>
+					</div> </div>
+</div>
+
+
+						</span>
+					</div>
+						<br>
+
+	<div id="google-reviews"></div>
+
+<script src="wp-includes\js\jquery\jquery.js"></script>
+<script src="wp-content/themes/Corsa/js/google-places.js"></script>
+
+<script>
+	jQuery(document).ready(function( $ ) {
+	   $("#google-reviews").googlePlaces({
+	        placeId: 'ChIJ-fqKVwM1K4gRw7gjKXW0dfQ' //Find placeID @: https://developers.google.com/places/place-id
+	      , render: ['reviews']
+	      , min_rating: 4
+	      , max_rows:4
+	   });
+	});
+</script> 
+		</div>
+			
+	<section id="where_to_find">		
+					<div class="l-subsection"><div class="1-subsection-h g-html i-cf">
+<h3><span class="highlight"><strong>Onsite Delivery & Walk-In Service</strong></span></h3>
+ 
+		<div class="map-wrap">
+    <div class="overlay" onClick="style.pointerEvents='none'"></div><!-- wrap map iframe to turn off mouse scroll and turn it back on on click -->
+ 
+
+
+<iframe  defer  width="100%" height="400" src="" data-src="https://www.google.com/maps/d/u/0/embed?mid=1K2gaOic4zeA_YoCRDWNZac83MHvmnWm2&z=13"  frameborder="0" style="border:0"></iframe>
+
+
+
+												<p>
+<small>
+Liberty Village - West Queen West - Niagra - Fort York - City Place - King West Village - Chinatown - Entertainment District - Downtown Toronto - Old Toronto - Downtown West - South Core - St. Lawrence - Corktown - Church - Yonge Corridor - Harbourfront - Grange Park Bay Street Corridor - East Bayfront - Garden District - The Distillery District - Bathurst Quay - Little Portugal - Canary District</small>
+</p>
+            <a href="https://www.facebook.com/FobDowntown/" class="fa fa-facebook fa-3x" title="facebook" target="_blank" data-mode="1"></a> &nbsp;&nbsp; &nbsp;&nbsp;
+            <a href="https://twitter.com/fobdowntown" class="fa fa-twitter fa-3x" title="twitter" target="_blank" data-mode="1"></a> &nbsp;&nbsp; &nbsp;&nbsp;
+                        <a href="https://www.instagram.com/fobdowntowntoronto/" class="fa fa-instagram fa-3x" title="instagram" target="_blank" data-mode="1"></a> &nbsp;&nbsp; &nbsp;&nbsp;
+			<a href="https://www.yelp.ca/biz/fobdowntown-toronto" class="fa fa-yelp fa-3x" title="Yelp" target="_blank" data-mode="1"></a>&nbsp;&nbsp; &nbsp;&nbsp;
+			<a href="https://www.google.com/maps?q=FobDowntown" class="fa fa-google fa-3x" title="Google Maps and Google Business review" target="_blank" data-mode="1"></a>
+						
+<h5><span>Address: &nbsp;<a href="https://www.google.com/maps/dir//FobDowntown+-+Downtown+Toronto+Key+Fob+Copy+and+duplication+Service,+65+E+Liberty+St,+Toronto,+ON+M6K+3R2/@43.638055,-79.4170047,17z/" data-mode="1" target="_blank">65 East Liberty St. Toronto</a></span></h5>
+<h5><span>Phone: &nbsp;<a href="tel:647-773-7133">647-773-7133</a></span></h5>
+<h5><span><b>Walk-In, On-Site and Mail-In services</b></span></h5>
+</div></div>
+<!-- /MAIN -->
+
+<!-- FOOTER -->
+						<!-- 
+<section id="experience" class="l-section">
+<div class="l-subsection color_alternate"><div class="1-subsection-h g-html i-cf">
+<h3><span class="highlight"><strong>Your Experience!</strong></span></h3>
+	
+	<div id="disqus_thread"></div>
+<script>
+(function() { 
+var d = document, s = d.createElement('script');
+s.src = '//fobdowntown.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+-->
+<!-- /FOOTER -->
+
+<a class="w-toplink" href="#"><i class="fa fa-chevron-up"></i></a>
+
+<script type='text/javascript' src='wp-content\themes\Corsa\js\jquery.easing.min.js'></script>
+<script type='text/javascript' src='wp-content\themes\Corsa\js\jquery.magnific-popup.js'></script>
+<script type='text/javascript' src='wp-content\themes\Corsa\js\imagesloaded.js'></script>
+<script type='text/javascript' src='wp-content\themes\Corsa\js\plugins.js'></script>
+<script type='text/javascript' src='wp-content\themes\Corsa\js\jquery.parallax.js'></script>
+<script src="wp-content/themes/Corsa/js/google.review.js"></script>
+
+<script>
+function init() {
+var vidDefer = document.getElementsByTagName('iframe');
+for (var i=0; i<vidDefer.length; i++) {
+if(vidDefer[i].getAttribute('data-src')) {
+vidDefer[i].setAttribute('src',vidDefer[i].getAttribute('data-src'));
+} } }
+window.onload = init;
+</script>
+
+	<!-- 
+<script>
+function init() {
+var vidDefer = document.getElementsByTagName('iframe');
+for (var i=0; i<vidDefer.length; i++) {
+if(vidDefer[i].getAttribute('data-src')) {
+vidDefer[i].setAttribute('src',vidDefer[i].getAttribute('data-src'));
+} } }
+window.onload = init;
+</script>
+	-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-91434280-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>
