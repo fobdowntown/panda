@@ -3672,7 +3672,7 @@ img.iclflag {
 
 .map {
     width:100%;
-    height:400px;  
+    height:460px;  
 }
  
  
@@ -3682,7 +3682,7 @@ img.iclflag {
      
 .overlay {
     width:100%;
-    min-height:400px;
+    min-height:460px;
     position:absolute;
     top:0;
 }
